@@ -741,6 +741,7 @@
 			box-sizing: border-box
 			display: flex
 			align-items: center
+			transition-duration: .5s
 		.col:first-child
 			opacity: 0
 		.col:last-child
@@ -759,6 +760,8 @@
 				height: 90px
 			.col:last-child
 				height: 110px
+			.orderNeed
+				background-color: #ffea3c
 		.col
 			height: 75px
 			width: 100%
@@ -1226,7 +1229,9 @@
 		color: #060c1a
 		text-align: center
 		margin-bottom: 70px
-
+	.cards:hover
+		.readMore
+			background-color: #ffea3c
 	.cards:hover .photo 
 		.person
 			filter: grayscale(0%)
@@ -1296,6 +1301,8 @@
 			margin: 0 auto
 			cursor: pointer
 			margin-top: 35px
+			transition-duration: .5s
+			transition-timing-function: ease
 		.prof
 			font-family: 'ProximaNova-SemiBold'
 			font-size: 18px
@@ -1307,3 +1314,45 @@
 			color: #060c1a
 			text-align: center
 			margin: 30px 0 15px
+// 
+.watchVideo
+	padding: 60px 0 110px
+	background-image: url('../img/watchBg.jpg')
+	background-size: cover
+	background-position: center
+	background-attachment: fixed
+	.titleSector
+		font-family: 'ProximaNovaExtrabold'
+		color: #ffea3c
+		font-size: 50px
+		margin-bottom: 80px
+		text-align: center
+	.theVideo
+		width: 70%
+		float: left
+	.aboutVideo
+		width: 30%
+		float: left
+		.title
+			font-family: 'ProximaNova-Bold'
+			font-size: 26px
+			color: #fff
+			margin-bottom: 35px
+		.text
+			font-family: 'ProximaNova-Regular'
+			font-size: 20px
+			color: #fff
+			margin-bottom: 40px
+		.downloadVideo
+			font-family: 'ProximaNovaExtrabold'
+			color: #171c29
+			font-size: 20px
+			display: inline-block
+			background-color: #ffea3c
+			text-transform: uppercase
+			width: 230px
+			height: 60px
+			display: flex
+			align-items: center
+			justify-content: space-around
+			border-radius: 30px

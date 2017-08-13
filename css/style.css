@@ -1145,6 +1145,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
 }
 
 .rate .colOne .col:first-child {
@@ -1180,6 +1183,10 @@
 
 .rate .colTwo:hover .col:last-child, .rate .colThree:hover .col:last-child, .rate .colFour:hover .col:last-child {
   height: 110px;
+}
+
+.rate .colTwo:hover .orderNeed, .rate .colThree:hover .orderNeed, .rate .colFour:hover .orderNeed {
+  background-color: #ffea3c;
 }
 
 .rate .colTwo .col, .rate .colThree .col, .rate .colFour .col {
@@ -1892,6 +1899,10 @@
   margin-bottom: 70px;
 }
 
+.specialPeople .cards:hover .readMore {
+  background-color: #ffea3c;
+}
+
 .specialPeople .cards:hover .photo .person {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -2005,6 +2016,12 @@
   margin: 0 auto;
   cursor: pointer;
   margin-top: 35px;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .specialPeople .cards .prof {
@@ -2020,6 +2037,71 @@
   color: #060c1a;
   text-align: center;
   margin: 30px 0 15px;
+}
+
+.watchVideo {
+  padding: 60px 0 110px;
+  background-image: url("../img/watchBg.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.watchVideo .titleSector {
+  font-family: 'ProximaNovaExtrabold';
+  color: #ffea3c;
+  font-size: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.watchVideo .theVideo {
+  width: 70%;
+  float: left;
+}
+
+.watchVideo .aboutVideo {
+  width: 30%;
+  float: left;
+}
+
+.watchVideo .aboutVideo .title {
+  font-family: 'ProximaNova-Bold';
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.watchVideo .aboutVideo .text {
+  font-family: 'ProximaNova-Regular';
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.watchVideo .aboutVideo .downloadVideo {
+  font-family: 'ProximaNovaExtrabold';
+  color: #171c29;
+  font-size: 20px;
+  display: inline-block;
+  background-color: #ffea3c;
+  text-transform: uppercase;
+  width: 230px;
+  height: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
