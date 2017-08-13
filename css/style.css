@@ -2357,6 +2357,209 @@
     font-size: 36px;
     text-align: center;
   }
+  .videoRecall .videoItem {
+    height: 210px !important;
+  }
+  .videoRecall .owl-prev {
+    margin-left: -5px;
+  }
+  .videoRecall .owl-next {
+    margin-right: -5px;
+  }
+  .howTheBe .leftSector .title {
+    font-size: 38px;
+  }
+  .orderNow .leftSector {
+    width: 50%;
+  }
+  .orderNow .rightSector {
+    width: 50%;
+  }
+  .orderNow .afterTitle {
+    font-size: 18px;
+  }
+  .orderNow .title {
+    font-size: 32px;
+  }
+  .partner .contentSector {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .partner .titleSector {
+    font-size: 36px;
+  }
+  .footer .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .footer .text {
+    font-size: 16px !important;
+  }
+  .footer .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer .cards {
+    width: 50% !important;
+    margin-top: 20px;
+  }
+  .footer .leftSector {
+    width: 50%;
+  }
+  .footer .rightSector {
+    width: 50%;
+  }
+  .footer .circle {
+    width: 75px !important;
+    height: 75px !important;
+    border-width: 2px !important;
+  }
+  .footer .circle .count {
+    font-size: 21px !important;
+  }
+  .footer .logoThe .uppercase {
+    font-size: 21px;
+  }
+  .footer .bottomPanel .ask {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 769px) {
+  .section {
+    overflow: hidden;
+  }
+  .header .helpInfo {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .header .timer .col {
+    width: 50px;
+    height: 50px;
+  }
+  .header .timer .col .count {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .header .timer .col .info {
+    font-size: 14px;
+  }
+  .afterHeader .titleSector {
+    font-size: 24px;
+  }
+  .afterHeader .cards {
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .blockedBisnes .titleSector {
+    font-size: 24px;
+  }
+  .blockedBisnes .row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .blockedBisnes .col {
+    width: 100%;
+  }
+  .blockedBisnes .col .result {
+    height: auto;
+    text-align: center !important;
+    font-size: 16px;
+  }
+  .blockedBisnes .col .list {
+    margin-bottom: 20px;
+  }
+  .blockedBisnes .col .psevdoTitle div {
+    font-size: 19px;
+  }
+  .blockedBisnes .col li {
+    font-size: 14px;
+  }
+  .blockedBisnes .col .psevdoTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .youWillSee .leftSector {
+    width: 100%;
+  }
+  .youWillSee .leftSector .title {
+    font-size: 24px;
+  }
+  .youWillSee .leftSector .afterTitle {
+    font-size: 18px;
+  }
+  .youWillSee .cards {
+    display: block !important;
+  }
+  .youWillSee .cards .circle {
+    border: 0 !important;
+    width: 100% !important;
+  }
+  .youWillSee .cards .justInfo {
+    text-align: center;
+  }
+  .youWillSee .rightSector {
+    display: none;
+  }
+  .problem .title {
+    font-size: 24px;
+  }
+  .problem .contentSector {
+    display: block;
+  }
+  .problem .contentSector > div {
+    clear: both;
+    width: 100%;
+  }
+  .problem .rightSector .content, .problem .leftSector .content {
+    margin-left: 0;
+    position: static;
+    font-size: 16px;
+  }
+  .tasks .title {
+    font-size: 24px;
+  }
+  .tasks .row {
+    width: 100%;
+    font-size: 16px;
+  }
+  .result .titleSector {
+    font-size: 24px;
+  }
+  .result .afterTitle {
+    font-size: 16px;
+  }
+  .theme .title {
+    font-size: 24px;
+  }
+  .theme .row {
+    display: block;
+  }
+  .theme .row .index {
+    display: none;
+  }
+  .theme .row .text {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
