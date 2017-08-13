@@ -1873,4 +1873,153 @@
   opacity: .8;
 }
 
+.specialPeople {
+  padding: 80px 0 10px;
+}
+
+.specialPeople .title {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 50px;
+  color: #060c1a;
+  text-align: center;
+}
+
+.specialPeople .afterTitle {
+  font-family: 'ProximaNova-Bold';
+  font-size: 29px;
+  color: #060c1a;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.specialPeople .cards:hover .photo .person {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.specialPeople .cards:hover .photo .yellowTr {
+  background-color: #dedede;
+}
+
+.specialPeople .cards:hover .photo .playKey {
+  background-image: url("../img/icons/whitePlay.png");
+}
+
+.specialPeople .cards {
+  width: 33.3%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 1%;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.specialPeople .cards .playKey {
+  width: 65px;
+  height: 65px;
+  background-image: url("../img/icons/playYellow.png");
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  position: absolute;
+  z-index: 3;
+  bottom: 13%;
+  background-repeat: no-repeat;
+  -webkit-background-size: content content;
+  background-size: content;
+  background-position: center;
+  left: 50%;
+  margin-left: -32px;
+}
+
+.specialPeople .cards .photo {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.specialPeople .cards .photo .person {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -5px;
+}
+
+.specialPeople .cards .photo .yellowTr {
+  position: absolute;
+  z-index: 1;
+  background-color: #ffea3c;
+  width: 200%;
+  height: 200px;
+  bottom: -170px;
+  left: -100px;
+  -webkit-transform: rotateZ(25deg);
+  -ms-transform: rotate(25deg);
+  transform: rotateZ(25deg);
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.specialPeople .cards .photo .greyTr {
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+.specialPeople .cards .readMore {
+  font-family: 'ProximaNovaExtrabold';
+  font-size: 20px;
+  color: #171c29;
+  text-transform: uppercase;
+  border: 5px solid #ffea3c;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  width: 180px;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.specialPeople .cards .prof {
+  font-family: 'ProximaNova-SemiBold';
+  font-size: 18px;
+  color: #060c1a;
+  text-align: center;
+}
+
+.specialPeople .cards .name {
+  font-family: 'ProximaNova-Bold';
+  font-size: 26px;
+  color: #060c1a;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

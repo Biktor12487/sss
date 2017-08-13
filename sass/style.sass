@@ -1212,3 +1212,98 @@
 			transition-duration: .5s
 			&:hover
 				opacity: .8
+// specialPeople
+.specialPeople
+	padding: 80px 0 10px
+	.title	
+		font-family: 'ProximaNovaExtrabold'
+		font-size: 50px
+		color: #060c1a
+		text-align: center
+	.afterTitle
+		font-family: 'ProximaNova-Bold'
+		font-size: 29px
+		color: #060c1a
+		text-align: center
+		margin-bottom: 70px
+
+	.cards:hover .photo 
+		.person
+			filter: grayscale(0%)
+		.yellowTr
+			background-color: #dedede
+		.playKey
+			background-image: url('../img/icons/whitePlay.png')
+	.cards
+		width: 33.3%
+		box-sizing: border-box
+		padding: 0 1%
+		float: left
+		margin-top: 45px
+		margin-bottom: 45px
+		.playKey
+			width: 65px
+			height: 65px
+			background-image: url('../img/icons/playYellow.png')
+			transition-duration: .5s
+			transition-timing-function: ease
+			position: absolute
+			z-index: 3
+			bottom: 13%
+			background-repeat: no-repeat
+			background-size: content
+			background-position: center
+			left: 50%
+			margin-left: -32px
+		.photo
+			text-align: center
+			overflow: hidden
+			position: relative
+			.person
+				filter: grayscale(100%)
+				transition-timing-function: ease
+				transition-duration: .5s
+				position: relative
+				z-index: 2
+				margin-bottom: -5px
+			.yellowTr
+				position: absolute
+				z-index: 1
+				background-color: #ffea3c
+				width: 200%
+				height: 200px
+				bottom: -170px
+				left: -100px
+				transform: rotateZ(25deg)
+				transition-duration: .5s
+				transition-timing-function: ease
+			.greyTr
+				position: absolute
+				right: 0
+				bottom: 5%
+		.readMore
+			font-family: 'ProximaNovaExtrabold'
+			font-size: 20px
+			color: #171c29
+			text-transform: uppercase
+			border: 5px solid #ffea3c
+			border-radius: 35px
+			width: 180px
+			height: 50px
+			display: flex
+			align-items: center
+			justify-content: space-around
+			margin: 0 auto
+			cursor: pointer
+			margin-top: 35px
+		.prof
+			font-family: 'ProximaNova-SemiBold'
+			font-size: 18px
+			color: #060c1a
+			text-align: center
+		.name
+			font-family: 'ProximaNova-Bold'
+			font-size: 26px
+			color: #060c1a
+			text-align: center
+			margin: 30px 0 15px
