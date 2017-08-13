@@ -24,6 +24,7 @@
 .container
 	width: 1170px
 	max-width: 100%
+	box-sizing: border-box
 	margin: 0 auto
 	padding: 0 20px
 // header
@@ -527,6 +528,7 @@
 			text-transform: uppercase
 			cursor: pointer
 			transition-duration: .5s
+			max-width: 90%
 			&:hover
 				opacity: .8
 	.bottomPanel
@@ -1213,6 +1215,7 @@
 			text-transform: uppercase
 			cursor: pointer
 			transition-duration: .5s
+			max-width: 90%
 			&:hover
 				opacity: .8
 // specialPeople
@@ -1356,3 +1359,196 @@
 			align-items: center
 			justify-content: space-around
 			border-radius: 30px
+// howTheBe
+.howTheBe
+	padding: 60px 0 80px
+	background-color: #ffea3c
+	.leftSector
+		.title
+			font-family: 'ProximaNovaExtrabold'
+			font-size: 66px
+			color: #060c1a
+// media
+@media (max-width: 1200px)
+	.blockedBisnes .container
+		padding: 0 20px
+	.blockedBisnes .col .result
+		font-size: 25px
+	.youWillSee .rightSector .justImg
+		width: 100%
+		height: 310px
+		min-height: 310px
+	.youWillSee .rowNumberAboutUs .cards .justInfo
+		margin-left: 20px
+	// 
+	.moderator .rightSector
+		max-width: 40%
+		float: left
+		img
+			width: 100%
+	.wePrepearForYou .dateLineOne .card .time
+		font-size: 16px
+	.rate .colTwo .orderNeed, .rate .colThree .orderNeed, .rate .colFour .orderNeed
+		width: 80%
+	// 
+	.videoRecall .videoItem
+		width: 85% !important
+		height: 280px !important
+	.orderNow .psevdoBg
+		width: 60%
+		bottom: -27%	
+		img
+			width: 100%
+	.footer .rightSector .orderKey
+		font-size: 16px
+		margin: 0 auto
+		display: block
+		height: 45px
+	.orderNow
+		.orderKey
+			font-size: 16px
+			height: 45px !important
+			display: block
+			margin: 0 auto
+	.partner .cards , .whoUseOurServices .cards
+		height: 180px
+	.header .topPanel .infoBlock
+		margin-left: 1vw
+	.header .namePage img
+		max-width: 90%
+@media (max-width: 1024px)
+	.header .topPanel .infoBlock
+		clear: both
+	.header .helpInfo
+		font-size: 28px
+	.afterHeader .titleSector	
+		font-size: 36px
+	.afterHeader .cards .psevdo .info
+		font-size: 18px
+	.blockedBisnes .titleSector
+		font-size: 36px
+	.blockedBisnes .psevdoBg img
+		display: none
+	.blockedBisnes .col.right .list , .blockedBisnes .col.right .psevdoTitle
+		padding-left: 5%
+	.blockedBisnes .col .result
+		font-size: 18px
+		background-image: none !important
+		border: 2px solid #ffea3c !important
+		height: 100px
+	.youWillSee .rightSector .justImg
+		min-height: 210px
+		height: 210px
+	.youWillSee .rowNumberAboutUs .cards .circle
+	    width: 55px
+	    height: 55px
+	    border: 2px solid #ffea3c
+	    font-size: 24px
+	.youWillSee 
+			.wrapResult
+				font-size: 18px
+			.rowNumberAboutUs 
+			 	flex-wrap: wrap
+			 	.cards 
+			 		width: 100%
+			 		margin-top: 10px
+			 		br
+			 			display: none
+	.problem
+		.title
+			font-size: 36px
+		.leftSector .content
+			font-size: 30px
+	.tasks .title
+		font-size: 36px
+	.result 
+		.afterTitle
+			font-size: 21px
+			margin-bottom: 40px
+		.wrapOrder
+			margin-top: 25px
+		.leftSector , .rightSector
+			width: 100%
+			margin-top: 0
+		.row 
+			width: 100%
+		.content
+			font-size: 16px
+			line-height: auto
+			br
+				display: none
+	.result  .row 
+		margin: 10px 0 !important
+		height: auto
+		min-height: 70px
+		.yellowIcon
+				height: 60px !important
+				margin-top: -45px !important
+	.result  .row .greyIcon
+		display: none
+	.result .rightSector .row .content
+		padding-left: 60px !important
+	.result .leftSector .row .content
+		padding-right: 60px !important
+		text-align: right
+	.theme 
+		.title
+			font-size: 36px
+			margin-bottom: 30px
+		.row
+			width: 100%
+	.winner 
+		.titleSector
+			font-size: 36px
+		.afterTitle
+			font-size: 21px
+	.specialPeople
+		.title
+			font-size: 36px
+		.afterTitle
+			font-size: 21px
+	.moderator 
+		.leftSector 
+			.title
+				font-size: 36px
+	.watchVideo 
+		.titleSector
+			font-size: 36px
+	.watchVideo 
+		.theVideo
+			width: 100%
+			iframe
+				margin: 0 auto
+				display: block
+				float: none
+		.aboutVideo
+			width: 100%
+			margin-top: 50px
+			box-sizing: border-box
+			padding: 0 100px
+	.wePrepearForYou 
+		.title
+			font-size: 36px
+			padding-bottom: 30px
+		.afterText 
+			margin-top: 40px
+			font-size: 21px
+	.rate 
+		.title
+			font-size: 36px
+		.afterTitle
+			font-size: 21px
+	.rate .colOne .col
+		padding-left: 20px
+		font-size: 19px
+	.rate .mapRoom .first div
+		font-size: 21px
+	.rate .mapRoom .last
+		font-size: 21px
+	.whoUseOurServices .title
+		font-size: 36px
+	.partner .cards, .whoUseOurServices .cards
+		width: 33.3%
+	.videoRecall .titleSector
+		font-size: 36px
+		text-align: center
